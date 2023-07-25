@@ -1,11 +1,12 @@
 import React from "react";
+import Router from "./router/Router";
 
 interface IProps {}
 
 function App(props: IProps) {
   return (
     <div style={{}}>
-      <h1>App</h1>
+      <Router />
     </div>
   );
 }
